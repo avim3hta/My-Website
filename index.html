@@ -1,13 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Avi Mehta</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avi Mehta - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scroll-animations.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particles.js Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Avi Mehta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-image" style="background-image: url('images/7a99588edcd1818b2f1eb37f4b736964.jpg');"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-12 text-center">
+                    <h1 class="hero-name" data-aos="fade-up" data-aos-duration="1000">Avi Mehta</h1>
+                    <p class="hero-title lead" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">B.Tech. in Computer Science <span class="highlight">(Cyber Security)</span></p>
+                    <div class="hero-buttons" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline-light">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">About Me</h2>
+                    <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-img">
+                        <div class="profile-img-container">
+                            <img src="images/1739262329141.jpg" alt="Avi Mehta" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="about-content">
+                        <p>I am a 3rd year B.Tech student currently enrolled in CSE Cybersecurity at MIT Bengaluru. My expertise lies in cybersecurity, embedded systems, and machine learning applications.</p>
+                        <p>With experience in web application penetration testing, algorithm optimization, and computer vision, I am passionate about developing secure and efficient solutions to complex problems.</p>
+                        <div class="social-links mt-4">
+                            <a href="https://github.com/avim3hta" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/avi-meh/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:avim3hta@proton.me"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-glass">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">Experience</h2>
+                    <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="timeline">
+                        <!-- Info-Sec Team Intern -->
+                        <div class="timeline-item" data-aos="fade-up">
+                            <div class="timeline-content">
+                                <span class="date">December 2024 - January 2025</span>
+                                <h3>Info-Sec Team, Intern</h3>
+                                <h4>Axis Securities - Navi Mumbai, Maharashtra</h4>
+                                <ul>
+                                    <li>Info-Sec intern performing Web Application Penetration testing using BurpSuite</li>
+                                    <li>Conducting penetration testing focusing on OWASP Top 10 API vulnerabilities to identify and report security weaknesses</li>
+                                    <li>Performed SSRF, CSRF, SQL Injection and API testing alongside Vulnerability Mitigation for each of them</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Embedded Systems Team Intern 2024 -->
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="timeline-content">
+                                <span class="date">May 2024 – July 2024</span>
+                                <h3>Embedded Systems Team, Intern</h3>
+                                <h4>3rdiTech - IIT Delhi, New Delhi</h4>
+                                <ul>
+                                    <li>Performed research and analysis of interpolation algorithms for digital zoom, based on performance qualitatively (image quality, artifact reduction) and quantitatively (processing speed, memory usage)</li>
+                                    <li>Implemented a custom tuned lanczos2/bilinear algorithm on live video using C++ optimized for FPGA porting</li>
+                                    <li>Optimized the original algorithm to achieve a 98.80% reduction in execution time of the loop, improving performance factor around 83x (8.3 seconds -> 100 ms)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Embedded Systems Team Intern 2023 -->
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="timeline-content">
+                                <span class="date">June 2023 – July 2023</span>
+                                <h3>Embedded Systems Team, Intern</h3>
+                                <h4>3rdiTech - IIT Delhi, New Delhi</h4>
+                                <ul>
+                                    <li>Researched, designed and tested relevant algorithms as part of embedded systems team</li>
+                                    <li>Implemented lightweight live video stabilization using EIS (Electronic Image Stabilization)</li>
+                                    <li>Developed Kalman filtering on accelerometer/gyroscope data extracted from hardware IMU (MPU-6050)</li>
+                                    <li>Designed an algorithm to estimate distance on a camera with constraints (Monocular Depth Estimation)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">Projects</h2>
+                    <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Network IPS Development -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-img cyber-border">
+                            <img src="images/96ad02f9b61d6e1534d494f16fbdc3bc.jpg" alt="Network IPS Development" class="project-image">
+                        </div>
+                        <div class="project-content">
+                            <h3>Network IPS Development</h3>
+                            <p>Customizing Snort (NIDS) and integrating it with firewall capabilities and applying port mirroring. This integration transforms Snort from a pure IDS into a hybrid Intrusion Prevention System (IPS).</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Snort</span>
+                                <span class="project-tag">Wireshark</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/avim3hta/NIDS" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Object Detection Model -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-img cyber-border">
+                            <img src="images/9efb919e2db3a06b0508218ea96806d9.jpg" alt="Object Detection Model" class="project-image">
+                        </div>
+                        <div class="project-content">
+                            <h3>Object Detection Model - Yolov7</h3>
+                            <p>Trained an object detection model using a custom data set and attained mAP@0.5 of >0.9 achieved with hyperparameter tuning [learning rate, batch size, model architecture, warmup epochs and data augmentation].</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">TensorFlow</span>
+                                <span class="project-tag">Keras</span>
+                                <span class="project-tag">PyTorch</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/lecturescribe" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lecture Scribe -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-img cyber-border">
+                            <img src="images/7a99588edcd1818b2f1eb37f4b736964.jpg" alt="Lecture Scribe" class="project-image">
+                        </div>
+                        <div class="project-content">
+                            <h3>Lecture Scribe</h3>
+                            <p>Applies pre-processing techniques and extracts text written on the board. Implements segmentation which boosts handwritten text recognition by 50%. Generates a speech transcript using Google Speech Recognition.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">OpenCV</span>
+                                <span class="project-tag">PaddleOCR</span>
+                                <span class="project-tag">Google API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/avim3hta/imageinterpo" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding bg-glass">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">Education</h2>
+                    <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- MIT Bengaluru -->
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="education-item">
+                        <span class="date">September 2022 – May 2026</span>
+                        <h3>Manipal Institute of Technology, Bengaluru</h3>
+                        <h4>B.Tech. in Computer Science (Cyber Security)</h4>
+                    </div>
+                </div>
+                
+                <!-- Modern School -->
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="education-item">
+                        <span class="date">Year of completion: 2022</span>
+                        <h3>Modern School, Barakhamba Road, New Delhi</h3>
+                        <h4>Secondary XII, Science - CBSE</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">Contact</h2>
+                    <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-info bg-glass p-4 rounded">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="icon-box">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <h3>Location</h3>
+                                    <p>Chanakyapuri, New Delhi, India - 110021</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="icon-box">
+                                    <i class="fas fa-envelope"></i>
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:avim3hta@proton.me">avim3hta@proton.me</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="icon-box">
+                                    <i class="fas fa-phone"></i>
+                                    <h3>Phone</h3>
+                                    <p>+91-9757140159</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="icon-box">
+                                    <i class="fas fa-globe"></i>
+                                    <h3>Website</h3>
+                                    <p><a href="https://ivathen.netlify.app" target="_blank">ivathen.netlify.app</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-12 text-center">
+                                <div class="social-links">
+                                    <a href="https://github.com/avim3hta" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="https://linkedin.com/in/avi-meh/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="mailto:avim3hta@proton.me"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p>&copy; 2025 Avi Mehta. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Particles.js -->
+    <script src="js/particles.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <!-- Scroll Animations -->
+    <script src="js/scroll-animations.js"></script>
+</body>
 </html>

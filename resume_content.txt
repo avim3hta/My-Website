@@ -1,0 +1,72 @@
+Avi Mehta
+Chanakyapuri, New Delhi Delhi - India -110021 | avim3hta@proton.me | +91-9757140159 | ivathen.netlify.app/
+linkedin.com/in/avi-meh/ | https://github.com/avim3hta
+
+Education
+Manipal Institute of Technology, Bengaluru, Karnataka, IN
+B.Tech. in Computer Science (Cyber Security).
+Modern School, Barakhamba Road, New Delhi
+
+Sept 2022 – May 2026
+Year of completion: 2022
+
+Secondary XII, Science - CBSE
+
+Experience
+December 2024 - Jan 2025
+Info-Sec Team, Intern, Axis Securities - Navi Mumbai, Maharashtra
+Info-Sec intern at Axis Securities performing Web Application Penetration testing using BurpSuite. Conducting
+penetration testing focusing on OWASP Top 10 API vulnerabilities to identify and report security weaknesses.
+Performed SSRF, CSRF, SQL Injection and API testing along side Vulnerablity Mitigation for each of them.
+Embedded Systems Team, Intern, 3rdiTech - IIT Delhi, New Delhi
+May 2024 – July 2024
+• Performed research and analysis of interpolation algorithms for digital zoom, based on performance qualitatively
+(image quality, artifact reduction) and quantitatively (processing speed, memory usage).
+• Implemented a custom tuned lanczos2/bilinear algorithm on live video using C++ optimized for FPGA porting
+• Optimized the original algorithm to achieve a 98.80% reduction in execution time of the loop, improving performance
+factor around 83x (8.3 seconds -> 100 ms).
+Embedded Systems Team, Intern, 3rdiTech - IIT Delhi, New Delhi
+June 2023 – July 2023
+As part of embedded systems team, I researched, designed and tested relevant algorithms:
+• Lightweight live video stabilization using EIS(Electronic Image Stabilization)
+• Kalman filtering on accelerometer/gyroscope data extracted from hardware IMU(MPU-6050)
+• Designed an Algorithm to estimate distance on a camera with constraints (Monocular Depth Estimation)
+
+Projects
+avim3hta/NIDS
+Network IPS Development
+• Customizing Snort (NIDS) and integrating it with firewall capabilities and applying port mirroring. This integration
+transforms Snort from a pure IDS into a hybrid Intrusion Prevention System (IPS) that can both detect and respond to
+threats in real-time
+• Tools Used: Python, Snort, Wireshark
+Object Detection Model - Yolov7
+/lecturescribe
+• Trained an object detection model using a custom data set and attained mAP@0.5 of >0.9 achived with
+hyperparameter tuning [learning rate, batch size, model architecture, warmup epochs and data augmentation]
+• Tools Used: Python, TensorFlow, Keras, Jupiter Notebook, Matplotlib, Numpy, Pytorch
+Lecture Scribe
+avim3hta/imageinterpo
+• Applies pre-processing techniques and extracts text written on the board. Implements segmentation which boosts
+handwritten text recognition by 50%. Generates a speech transcript using Google Speech Recognition that has a
+general accuracy of over 85%. Combines OCR text and speech transcript using Google’s Gemini model to generate
+PDF notes.
+• Tools Used: Python, OpenCV, PaddleOCR, Google Speech Recognition, Google Gemini API, mT5, NLP techniques
+
+Certifications
+Google CyberSecurity Specialization [Linux,Python,SQL, SIEM tools]
+Security+ (CompTIA Security+) - In Progress
+eJPTv2 (eLearnSecurity Junior Penetration Tester) - In Progress
+
+6 months
+Expected completion: 4/25
+Expected completion: 5/25
+
+Completed 50+ PortSwigger labs on web application security testing using Burp Suite
+
+Technologies
+Languages and OS: Python, SQL, HTML, CSS, Windows, Ubuntu, Fedora, Kali
+Framework and Tools: Burpsuite, Metasploit Framework, Nmap, Hydra, TheHarvester Wireshark, TensorFlow, OpenCV,
+Domain-Specific Skills: Web Application Penetration Testing, Threat Mitigation, Network Security, Machine Learning,
+Image Processing, Computer Vision, and Research
+
+
